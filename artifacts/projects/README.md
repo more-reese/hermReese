@@ -10,6 +10,7 @@ Shipped projects built with or through Hermes Agent. These aren't demos — they
 | **vsm-translator** | Desktop app that keeps plain-language process text and BPMN/VSM diagrams in sync, both directions. Built with Electron + Vite. | [github.com/more-reese/vsm-translator](https://github.com/more-reese/vsm-translator) |
 | **lenswork** | Multi-pass reasoning pipeline that weighs quality against cost with per-stage model choice. Every claim labeled by evidence type so output can be checked. | [github.com/more-reese/lenswork](https://github.com/more-reese/lenswork) |
 | **dreamward** | A comparative atlas of dream traditions — 32 traditions mapped across 8 clusters with graph, matrix, interpret, and comparator views. | [github.com/more-reese/dreamward](https://github.com/more-reese/dreamward) |
+| **formology** | The study of form as the atomic unit — a framework investigating what form is, how it gets its meaning from context, and what stays the same when the instance changes. Emerged from re-translating Stafford Beer's VSM. Includes a field survey of 20+ prior-art fields, 5 shared cases, stress tests of 7 hypotheses, and an OWL ontology. | [github.com/more-reese/formology](https://github.com/more-reese/formology) |
 
 ## How Hermes was involved
 
@@ -33,5 +34,6 @@ These projects demonstrate the "hands-on experience building or shipping AI agen
 - **vsm-translator** — 42 TypeScript files, ~7,270 lines, a desktop app with bidirectional sync and conflict resolution
 - **lenswork** — 52 TypeScript files, ~8,340 lines, a Next.js app with per-stage model choice and evidence labeling
 - **dreamward** — a data atlas with an API server, graph/matrix/interpret/comparator views
+- **formology** — a research framework with field survey, stress tests, shared cases, and an OWL ontology; the deepest "thinking with Hermes" project to date
 
 Each one was designed, built, and shipped through conversations with Hermes. The through-line: I build with agents because thinking and making are the same act when the tool gets out of the way.
