@@ -34,6 +34,6 @@ These projects demonstrate the "hands-on experience building or shipping AI agen
 - **vsm-translator** — 42 TypeScript files, ~7,270 lines, a desktop app with bidirectional sync and conflict resolution
 - **lenswork** — 52 TypeScript files, ~8,340 lines, a Next.js app with per-stage model choice and evidence labeling
 - **dreamward** — a data atlas with an API server, graph/matrix/interpret/comparator views
-- **formology** — a research framework with field survey, stress tests, shared cases, and an OWL ontology; the deepest "thinking with Hermes" project to date
+- **formology** — a research framework with field survey, stress tests, shared cases, and an OWL ontology; evolved through two research passes (v0.3.0 initial + v0.4.0 collaborator review); the deepest "thinking with Hermes" project to date
 
 Each one was designed, built, and shipped through conversations with Hermes. The through-line: I build with agents because thinking and making are the same act when the tool gets out of the way.
