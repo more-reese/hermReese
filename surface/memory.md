@@ -17,15 +17,13 @@ Hermes has persistent memory that loads into every new session. Two stores: one 
 >
 > Non-technical: prefers plain-language explanations over command-line instructions, wants to understand tradeoffs before acting, and explicitly does not want to be pushed beyond their current skill level. Frame technical setup as staged progression — stay at current stage until a real need pushes forward.
 >
-> Goes by  (primary pseudonym). Works in crypto/web3 space. Writes for  under the  pseudonym. Has consulting experience — built the  Revenue System. Also built: substrate, vsm-translator, dreamward. Iterative worker who prefers small chunks.
+> Works in crypto/web3. Has consulting experience — built a revenue operating system for a marketing agency. Also built: substrate, vsm-translator, dreamward. Iterative worker who prefers small chunks.
 
 ### From MEMORY.md
 
-> PATTERN LANGUAGE PROJECT: Formology v0.3.1 — shared operating language of pro-forms with productive morphology. Five conformations tested across , C0, , substrate, and cybernetic morphology. NEXT: draft standalone formal proof; decide if algorithm/heuristic is a separate axis or a prefix reading.
+> PATTERN LANGUAGE PROJECT: Formology v0.3.1 — shared operating language of pro-forms with productive morphology. Five conformations tested across business, research, creative, software, and cybernetic morphology. NEXT: draft standalone formal proof; decide if algorithm/heuristic is a separate axis or a prefix reading.
 >
-> User sometimes interacts from mobile via Telegram without computer access.  installed on Mac.
->
-> APP: Product Manager, Hermes Agent at . Referred by  (Head of Strategy). Applying via  — resume, cover letter, portfolio required.
+> User sometimes interacts from mobile via Telegram without computer access.
 
 ## What this shows
 

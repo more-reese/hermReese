@@ -5,15 +5,15 @@ How my Hermes is set up. Sanitized — no keys, tokens, or secrets.
 ## Model and provider
 
 - **Model:** GLM-5.2 (z-ai)
-- **Provider:**  inference API
-- **Base URL:** `https://inference-api.nousresearch.com/v1`
+- **Provider:** inference API (default)
+- **Base URL:** (provider inference endpoint)
 - **API mode:** Chat completions
 
-I use Nous's own inference endpoint as my default. The provider is provider-agnostic in Hermes — I can swap models mid-workflow if a task calls for a different model's strengths.
+I use my default inference endpoint. The provider is provider-agnostic in Hermes — I can swap models mid-workflow if a task calls for a different model's strengths.
 
 ## Runtime
 
-- **Platform:** macOS (Apple Silicon)
+- **Platform:** macOS
 - **Terminal backend:** local (not containerized)
 - **Timeout:** 180s default
 - **Agent max turns:** 500

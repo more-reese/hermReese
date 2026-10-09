@@ -16,11 +16,11 @@ The user journey from install → first useful task → sustained use. I went th
 
 ## Phase 2: First run — setup and model selection
 
-**What happened:** I ran `hermes setup` — a setup wizard that walked me through picking a model and provider. I chose the  inference endpoint (I was referred by , Head of Strategy, so I started with Nous's own infrastructure). The setup wizard configured `config.yaml` and I was ready to go.
+**What happened:** I ran `hermes setup` — a setup wizard that walked me through picking a model and provider. I chose my default inference endpoint. The setup wizard configured `config.yaml` and I was ready to go.
 
 **What worked:** The setup wizard is well-designed — it doesn't overwhelm with options. It asks what you need and configures the rest.
 
-**What nearly stopped me:** I didn't know what model to pick. The setup wizard offered choices, but I didn't have a frame of reference for which model was good for what. I picked the Nous endpoint because I trusted the referral, not because I evaluated models. A new user without a referral might stall here.
+**What nearly stopped me:** I didn't know what model to pick. The setup wizard offered choices, but I didn't have a frame of reference for which model was good for what. I picked the default because it was the default, not because I evaluated models. A new user without context might stall here.
 
 **Friction point:** The model selection step needs a "what is this for" frame, not just a list of model names. "GLM-5.2 is good for general tasks, fast, and cost-effective" is more helpful than "GLM-5.2."
 
@@ -50,7 +50,7 @@ The user journey from install → first useful task → sustained use. I went th
 
 ## Phase 5: Where I am now
 
-I use Hermes daily. I've built 3 custom skills. I have 20+ uses of the hermes-agent skill. I have persistent memory that remembers who I am and how I work. I have a Telegram gateway that lets me work from my phone. I've shipped 4 public projects with Hermes as collaborator. I'm applying for the PM role with a repo built entirely through Hermes sessions.
+I use Hermes daily. I've built 3 custom skills. I have 20+ uses of the hermes-agent skill. I have persistent memory that remembers who I am and how I work. I have a Telegram gateway that lets me work from my phone. I've shipped 4 public projects with Hermes as collaborator. This repo itself was built entirely through Hermes sessions.
 
 The journey from install to here took about 3 weeks. The product earned my trust through the four pillars: memory, skills, honest failure, visible value. The product opportunity is shortening that journey — getting more users to the trust ramp faster.
 

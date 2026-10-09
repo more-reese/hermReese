@@ -2,7 +2,7 @@
 
 **Skill name:** `pattern-language`
 **Version:** 0.3.1
-**Author:** 
+**Author:** Agent-assisted
 **Category:** Research
 **Uses:** 8+ sessions
 
@@ -20,7 +20,7 @@ The skill loads when I'm developing, refining, or applying the pattern language.
 - The core principles (form as atomic unit, productive morphology, the cycle pro→con→de)
 - The four axes (suffix, prefix, focus, context)
 - The 2x2 spatio-temporal matrix as a conformation of the prefix
-- Five tested conformations across domains (, C0, , substrate, cybernetic morphology)
+- Five tested conformations across domains (business, research, creative, software, cybernetic morphology)
 - Open questions and version history
 
 The agent reads this and participates in the thinking — proposing conformations, testing them against the criteria, flagging where the language breaks.
@@ -35,12 +35,12 @@ It's not a lookup — it's a conversation. The skill gives the agent the vocabul
 
 - **Over-fitting to VSM.** The 2x2 matrix is a conformation, not the form — but it's the most developed one, so it's easy to mistake it for the structure itself.
 - **Premature formalization.** The language is heuristic, not algorithmic — it orients within an open space of possibilities; it doesn't compute a final answer.
-- **Domain coverage.** Five conformations tested; vsm-translator,  articles, and the Composite Wordplay Score remain untested.
+- **Domain coverage.** Five conformations tested; vsm-translator, published articles, and the Composite Wordplay Score remain untested.
 
 ## What I'm working on next
 
 - Drafting a standalone C0-style formal proof for Formology (axioms + membership rule + domain topology + test suite)
-- Testing remaining artifacts (vsm-translator,  articles) against the foundational proof
+- Testing remaining artifacts (vsm-translator, published articles) against the foundational proof
 - Deciding whether the algorithm/heuristic distinction is a separate axis or a reading of the prefix
 
 ## The deeper point

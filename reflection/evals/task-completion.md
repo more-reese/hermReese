@@ -7,7 +7,7 @@ Real tasks, real acceptance criteria, real results. Each entry is an evaluation 
 ## Eval 1: Pre-publish review (substrate, vsm-translator, lenswork)
 
 **Date:** 2026-10-04
-**Model:** GLM-5.2 (z-ai, )
+**Model:** GLM-5.2 (z-ai)
 **Task:** Run a complete pre-publish review for three repos before their first public GitHub push.
 
 **Acceptance criteria:**
@@ -33,8 +33,8 @@ Real tasks, real acceptance criteria, real results. Each entry is an evaluation 
 ## Eval 2: GitHub profile optimization
 
 **Date:** 2026-10-04
-**Model:** GLM-5.2 (z-ai, )
-**Task:** Audit and optimize my GitHub profile for a job application — make relevant repos public, add descriptions, clean up noise.
+**Model:** GLM-5.2 (z-ai)
+**Task:** Audit and optimize my GitHub profile — make relevant repos public, add descriptions, clean up noise.
 
 **Acceptance criteria:**
 - [x] All relevant repos public and visible on the profile
@@ -54,7 +54,7 @@ Real tasks, real acceptance criteria, real results. Each entry is an evaluation 
 ## Eval 3: This repo (hermReese)
 
 **Date:** 2026-10-07
-**Model:** GLM-5.2 (z-ai, )
+**Model:** GLM-5.2 (z-ai)
 **Task:** Build a living workspace repo that showcases how I use Hermes Agent, structured around my mental model (philosophy → surface → artifacts → reflection).
 
 **Acceptance criteria:**
@@ -66,7 +66,7 @@ Real tasks, real acceptance criteria, real results. Each entry is an evaluation 
 - [x] Every file produced through a Hermes session
 - [x] No fabricated content — templates where real content needs user input
 
-**Run:** This session. Hermes read my resume, the job posting, my skill files, my Hermes config, my memory files, my usage stats, and my project directories. It proposed a structure, got feedback via clarify(), restructured based on the feedback ("this reflects my ever-evolving understanding of and interactions with Hermes Agent"), and built every file through the session.
+**Run:** This session. Hermes read my skill files, my Hermes config, my memory files, my usage stats, and my project directories. It proposed a structure, got feedback, restructured based on the feedback ("this reflects my ever-evolving understanding of and interactions with Hermes Agent"), and built every file through the session.
 
 **Result:** **PASS** — all criteria met. The repo exists, is structured around the mental model, and contains real content from real artifacts. The friction log has 5 real friction points I've hit. The evals section has 3 real evals (including this one).
 

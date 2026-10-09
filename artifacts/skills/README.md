@@ -19,7 +19,7 @@ A shared operating language for pro-forms — meaning resolved by context, with 
 
 ### [job-application-strategy](skills/job-application-strategy.md)
 
-Structured guidance for preparing a job application or interview. Built during this very application — the skill I used to produce the resume, cover letter, and this repo. Manages an application as a product launch: a single master experience reference feeds every downstream deliverable. Includes GitHub profile optimization, portfolio repo scaffolding, and interview prep.
+Structured guidance for preparing a professional application or interview. Built during this very application — the skill used to produce the deliverables for this repo. Manages an application as a product launch: a single master experience reference feeds every downstream deliverable. Includes GitHub profile optimization, portfolio repo scaffolding, and interview prep.
 
 ### [telegram-share](skills/telegram-share.md)
 

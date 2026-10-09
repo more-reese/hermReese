@@ -40,4 +40,4 @@ This isn't a portfolio. It's a reference library and a public showcase for how I
 
 ---
 
- · [github.com/more-reese](https://github.com/more-reese)
+Maintained by a daily Hermes Agent user. The git history is the iteration history.

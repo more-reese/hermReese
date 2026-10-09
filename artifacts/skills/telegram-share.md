@@ -2,7 +2,7 @@
 
 **Skill name:** `telegram-share`
 **Version:** 1.0.0
-**Author:** Hermes Agent (built during a  session)
+**Author:** Hermes Agent (built during a user session)
 **Category:** Productivity
 **Related skills:** architecture-diagram
 

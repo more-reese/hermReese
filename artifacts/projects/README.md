@@ -6,11 +6,11 @@ Shipped projects built with or through Hermes Agent. These aren't demos — they
 
 | Project | What it is | Repo |
 |---|---|---|
-| **substrate** | Describe a system in plain English; get a versioned graph model with JSON/Markdown/Mermaid/Python output. | [github.com/more-reese/substrate](https://github.com/more-reese/substrate) |
-| **vsm-translator** | Desktop app that keeps plain-language process text and BPMN/VSM diagrams in sync, both directions. Built with Electron + Vite. | [github.com/more-reese/vsm-translator](https://github.com/more-reese/vsm-translator) |
-| **lenswork** | Multi-pass reasoning pipeline that weighs quality against cost with per-stage model choice. Every claim labeled by evidence type so output can be checked. | [github.com/more-reese/lenswork](https://github.com/more-reese/lenswork) |
-| **dreamward** | A comparative atlas of dream traditions — 32 traditions mapped across 8 clusters with graph, matrix, interpret, and comparator views. | [github.com/more-reese/dreamward](https://github.com/more-reese/dreamward) |
-| **formology** | The study of form as the atomic unit — a framework investigating what form is, how it gets its meaning from context, and what stays the same when the instance changes. Emerged from re-translating Stafford Beer's VSM. Includes a field survey of 20+ prior-art fields, 5 shared cases, stress tests of 7 hypotheses, and an OWL ontology. | [github.com/more-reese/formology](https://github.com/more-reese/formology) |
+| **substrate** | Describe a system in plain English; get a versioned graph model with JSON/Markdown/Mermaid/Python output. | [substrate](https://github.com/more-reese/substrate) |
+| **vsm-translator** | Desktop app that keeps plain-language process text and BPMN/VSM diagrams in sync, both directions. Built with Electron + Vite. | [vsm-translator](https://github.com/more-reese/vsm-translator) |
+| **lenswork** | Multi-pass reasoning pipeline that weighs quality against cost with per-stage model choice. Every claim labeled by evidence type so output can be checked. | [lenswork](https://github.com/more-reese/lenswork) |
+| **dreamward** | A comparative atlas of dream traditions — 32 traditions mapped across 8 clusters with graph, matrix, interpret, and comparator views. | [dreamward](https://github.com/more-reese/dreamward) |
+| **formology** | The study of form as the atomic unit — a framework investigating what form is, how it gets its meaning from context, and what stays the same when the instance changes. Emerged from re-translating Stafford Beer's VSM. Includes a field survey of 20+ prior-art fields, 5 shared cases, stress tests of 7 hypotheses, and an OWL ontology. | [formology](https://github.com/more-reese/formology) |
 
 ## How Hermes was involved
 
@@ -28,7 +28,7 @@ This process is documented in a publish-review file that's over 60KB — evidenc
 
 ## What this shows
 
-These projects demonstrate the "hands-on experience building or shipping AI agent products" qualification from the PM role. They're not toys:
+These projects demonstrate real hands-on experience building and shipping AI agent products. They're not toys:
 
 - **substrate** — 8 Python files, ~2,100 lines, a versioning tool with a growing lexicon and provenance tracking
 - **vsm-translator** — 42 TypeScript files, ~7,270 lines, a desktop app with bidirectional sync and conflict resolution
