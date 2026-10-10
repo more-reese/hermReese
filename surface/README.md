@@ -10,3 +10,4 @@ The "use Hermes Agent daily" requirement, made visible. Not a description of how
 - **[memory.md](memory.md)** — How persistent memory works and what mine actually contains. Sanitized excerpts.
 - **[telegram-gateway.md](telegram-gateway.md)** — How I connected a Telegram bot to Hermes so I can work from my phone. What it does, what it can't do, what I'd improve.
 - **[sessions/](sessions/)** — Annotated examples of real sessions: tasks I gave Hermes, what it did, what worked, what didn't.
+- **[learning-path/](learning-path/)** — How I'm learning Hermes from first principles: structured curriculum, practice exercises, dual assessment (knowledge + skills), and progress tracking.
