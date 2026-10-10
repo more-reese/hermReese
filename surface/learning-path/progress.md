@@ -3,7 +3,7 @@
 | # | Module | Tier | Status | Knowledge | Skills | Date | Note |
 |---|--------|------|--------|-----------|--------|------|------|
 | 1 | Installation | Beginner | ✅ complete | pass | pass | 2026-10-10 | "An AI agent framework — rules + tools that decide and act autonomously. Concrete example of action vs. chatbot: publishing a GitHub repo." |
-| 2 | Quickstart | Beginner | not started | — | — | — | — |
+| 2 | Quickstart | Beginner | ✅ complete | pass | pass | 2026-10-10 | "ReAct pattern: input → [reason → act → observe → reason] → output. One-shot is transactional, multi-shot is interactional. Tool chaining = each result informs the next decision." |
 | 3 | CLI Usage | Beginner | not started | — | — | — | — |
 | 4 | Configuration | Beginner | not started | — | — | — | — |
 | 5 | Sessions | Intermediate | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Beginner tier, Module 2 (Quickstart) — ready to start
+**Current position:** Beginner tier, Module 3 (CLI Usage) — ready to start
