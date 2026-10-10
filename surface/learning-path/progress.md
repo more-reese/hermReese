@@ -2,7 +2,7 @@
 
 | # | Module | Tier | Status | Knowledge | Skills | Date | Note |
 |---|--------|------|--------|-----------|--------|------|------|
-| 1 | Installation | Beginner | not started | — | — | — | — |
+| 1 | Installation | Beginner | ✅ complete | pass | pass | 2026-10-10 | "An AI agent framework — rules + tools that decide and act autonomously. Concrete example of action vs. chatbot: publishing a GitHub repo." |
 | 2 | Quickstart | Beginner | not started | — | — | — | — |
 | 3 | CLI Usage | Beginner | not started | — | — | — | — |
 | 4 | Configuration | Beginner | not started | — | — | — | — |
@@ -19,6 +19,6 @@
 
 ---
 
-Started: (not yet begun)
+Started: 2026-10-10
 
-**Current position:** Beginner tier, Module 1 — ready to start
+**Current position:** Beginner tier, Module 2 (Quickstart) — ready to start
