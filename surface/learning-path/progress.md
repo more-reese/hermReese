@@ -9,7 +9,7 @@
 | 5 | Sessions | Intermediate | ✅ complete | pass | pass | 2026-10-10 | "Session vs memory: sessions are conversation-scoped, memory is profile-scoped and deliberately written (not auto-extracted). All surfaces share one state.db per profile. Config changes take effect next session; slash commands override immediately." |
 | 6 | Messaging | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Gateway = single process, many adapters. Shared: agent core, session store, memory, skills, config. Per-platform: adapter, connection, allowlist, capabilities. Security = deny by default. Handoff = same session across surfaces." |
 | 7 | Tools | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A tool is a capability for external action with a schema (name, description, parameters). The model reads schemas to match intent to capability. Toolsets bundle tools by capability; you enable different toolsets per surface because not every tool makes sense on every platform." |
-| 8 | Skills | Intermediate | not started | — | — | — | — |
+| 8 | Skills | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A skill does not take action — it is used to take action. Progressive disclosure = just in case (name + description, always loaded) and just in time (full body, loaded on match or request). Description limit = routing signal, not just cost." |
 | 9 | Memory | Intermediate | not started | — | — | — | — |
 | 10 | Cron | Intermediate | not started | — | — | — | — |
 | 11 | Architecture | Advanced | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Intermediate tier, Module 8 (Skills) — ready to start
+**Current position:** Intermediate tier, Module 9 (Memory) — ready to start
