@@ -8,7 +8,7 @@
 | 4 | Configuration | Beginner | ✅ complete | pass | pass | 2026-10-10 | "config.yaml = settings, .env = secrets. Split is security: secrets exposed if in config. UPPER_SNAKE names route to .env, dotted names to config.yaml. Precedence: CLI > config > .env > defaults. Set reasoning_effort=medium explicitly." |
 | 5 | Sessions | Intermediate | ✅ complete | pass | pass | 2026-10-10 | "Session vs memory: sessions are conversation-scoped, memory is profile-scoped and deliberately written (not auto-extracted). All surfaces share one state.db per profile. Config changes take effect next session; slash commands override immediately." |
 | 6 | Messaging | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Gateway = single process, many adapters. Shared: agent core, session store, memory, skills, config. Per-platform: adapter, connection, allowlist, capabilities. Security = deny by default. Handoff = same session across surfaces." |
-| 7 | Tools | Intermediate | not started | — | — | — | — |
+| 7 | Tools | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A tool is a capability for external action with a schema (name, description, parameters). The model reads schemas to match intent to capability. Toolsets bundle tools by capability; you enable different toolsets per surface because not every tool makes sense on every platform." |
 | 8 | Skills | Intermediate | not started | — | — | — | — |
 | 9 | Memory | Intermediate | not started | — | — | — | — |
 | 10 | Cron | Intermediate | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Intermediate tier, Module 7 (Tools) — ready to start
+**Current position:** Intermediate tier, Module 8 (Skills) — ready to start
