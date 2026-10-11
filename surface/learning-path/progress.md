@@ -7,7 +7,7 @@
 | 3 | CLI Usage | Beginner | ✅ complete | pass | pass | 2026-10-10 | "--continue resumes most recent; --resume picks a specific session. ! prefix saves cost AND keeps context clean. Three commands: secrets, cron, skills." |
 | 4 | Configuration | Beginner | ✅ complete | pass | pass | 2026-10-10 | "config.yaml = settings, .env = secrets. Split is security: secrets exposed if in config. UPPER_SNAKE names route to .env, dotted names to config.yaml. Precedence: CLI > config > .env > defaults. Set reasoning_effort=medium explicitly." |
 | 5 | Sessions | Intermediate | ✅ complete | pass | pass | 2026-10-10 | "Session vs memory: sessions are conversation-scoped, memory is profile-scoped and deliberately written (not auto-extracted). All surfaces share one state.db per profile. Config changes take effect next session; slash commands override immediately." |
-| 6 | Messaging | Intermediate | not started | — | — | — | — |
+| 6 | Messaging | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Gateway = single process, many adapters. Shared: agent core, session store, memory, skills, config. Per-platform: adapter, connection, allowlist, capabilities. Security = deny by default. Handoff = same session across surfaces." |
 | 7 | Tools | Intermediate | not started | — | — | — | — |
 | 8 | Skills | Intermediate | not started | — | — | — | — |
 | 9 | Memory | Intermediate | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Intermediate tier, Module 6 (Messaging) — ready to start
+**Current position:** Intermediate tier, Module 7 (Tools) — ready to start
