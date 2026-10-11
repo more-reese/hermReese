@@ -405,6 +405,62 @@ Students learn how to contribute to Hermes Agent itself — the development work
 
 ---
 
+## Bonus Module: Reading Code
+
+**Goal:** Read, understand, and explain what code does — not write it.  
+**Assumes:** Elementary understanding of code (can read basic Python, knows what a function/variable/import is).  
+**Primary Reference:** The Hermes Agent source code at `~/.hermes/hermes-agent/`  
+**Prerequisite:** Tier I (Beginner) complete. Does not require Tier II or III — this module can be taken after Module 4.
+
+---
+
+### Module 15: Reading and Explaining Code
+
+**Reference:** `~/.hermes/hermes-agent/` (the installed Hermes source)
+
+**Description:**  
+Students learn to read code the way an architect reads blueprints — not to build, but to understand. What is this code doing? How does it interact with and contribute to the entire system? What pattern is it an example of? The module uses the Hermes Agent source code as the primary reference, walking through real files the student has been using all course: the CLI entry point, the session store, the tool dispatcher, the skill loader. Students don't write code — they explain it.
+
+The goal is not literacy in Python the programming language. The goal is literacy in systems: what does this file do, why does it exist, what pattern does it instantiate, and how does it connect to the other moving parts the student has already learned about in Modules 1–14?
+
+**Learning Objectives:**
+- Read a source file and explain in plain language what it does (not line-by-line, but structurally)
+- Identify the role a file or function plays in the larger system (where does it sit in the request flow from Module 11?)
+- Recognize common patterns in the codebase: the tool registration pattern (Module 12), the skill loading pattern (Module 8), the config/secrets split (Module 4), the session storage pattern (Module 5)
+- Distinguish between "what this code does" and "what pattern it's an example of" — the concrete vs. the abstract
+- Map code structure to the concepts already learned: trace how `hermes --continue` actually finds a session, how `hermes config set` routes a value, how `skill_view` loads a SKILL.md file
+
+**After completing this module, the student will know:**
+- How to approach an unfamiliar source file: read the imports (what does it depend on?), read the function signatures (what does it expose?), read the body of the most important function (what does it actually do?)
+- How to connect code to the mental models from the course: the interaction loop, the session store, the config/secrets split, the skill loading mechanism, the tool dispatch system
+- That you can understand a system by reading its code without being able to write code for that system — the same way you can understand how a car engine works without being able to build one
+- Which patterns from the course appear in the codebase and where: the ReAct loop lives in the agent core, the session store lives in `state.db` accessed through the sessions module, the skill loading lives in the skills directory scanned at startup, the config routing lives in the config module
+
+**After completing this module, the student will have practiced:**
+- Reading a specific Hermes source file (e.g., the CLI entry point or the session store module) and explaining what it does in plain language
+- Identifying which course concept the file implements (e.g., "this is the session store — it reads and writes `state.db`, which is the SQLite database from Module 5")
+- Tracing one real code path: pick a command the student has used (`hermes --continue`, `hermes config set`, `skill_view`) and follow it from the CLI entry point through to where it actually does the thing
+- Explaining the pattern a file instantiates: "This is the tool registration pattern from Module 12 — here's where tools get defined, here's where they get discovered, here's where they get called"
+
+**Assessment:**
+
+**Knowledge check:**
+The student is given a short Hermes source file (or a trimmed excerpt) they haven't seen during the module. They read it and answer three questions in their own words:
+1. What is this code doing? (Structural explanation, not line-by-line)
+2. How does it interact with and contribute to the entire system? (Where does it sit in the architecture from Module 11?)
+3. What pattern is it an example of? (Connect it to a concept from the course)
+
+**Skills check:**
+The student picks a Hermes command they've used during the course (e.g., `hermes --continue`, `hermes config set`, `skill_view`) and traces it through the source code — from the CLI entry point to where it actually does the work. The instructor verifies the trace is accurate by reading the same files.
+
+**Why this module exists:**
+
+Modules 1–14 teach what Hermes does. This module teaches how to see what it is — by reading the code that makes it work. The student has spent the course building mental models: the interaction loop, the session store, the config split, the skill loader. This module connects those mental models to the actual source files that implement them.
+
+The purpose is not to make the student a programmer. The purpose is to make the student a reader — someone who can look at a codebase and understand it well enough to explain it, make product decisions about it, and ask better questions about how it works. That's the same skill set the course has been building all along, applied to the code itself instead of the docs.
+
+---
+
 ## Grading Scale
 
 | Score | Meaning |
