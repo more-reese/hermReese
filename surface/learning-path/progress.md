@@ -12,7 +12,7 @@
 | 8 | Skills | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A skill does not take action — it is used to take action. Progressive disclosure = just in case (name + description, always loaded) and just in time (full body, loaded on match or request). Description limit = routing signal, not just cost." |
 | 9 | Memory | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Memory = MEMORY.md (2,200 chars) + USER.md (1,375 chars), frozen snapshot at session start, written now read later. Session search is free but on-demand; memory costs tokens every session but is instant. Tool rejects full writes — agent consolidates manually." |
 | 10 | Cron | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Cron = durable, scheduled, autonomous. Delegation = ephemeral, parallel, process-local. Session = interactive. Model resolution: per-job pin → cron.model → main agent. Durability = stored on disk, survives restarts." |
-| 11 | Architecture | Advanced | not started | — | — | — | — |
+| 11 | Architecture | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Six entry points, one AIAgent core. Three data flows converge on run_conversation(): CLI (direct), gateway (adapter + authorize + session resolve), cron (fresh agent, no history, inject skills). Platform-agnostic core: platform differences live in entry points, not the agent. Each concept maps to a specific source file." |
 | 12 | Adding Tools | Advanced | not started | — | — | — | — |
 | 13 | Creating Skills | Advanced | not started | — | — | — | — |
 | 14 | Contributing | Advanced | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Advanced tier, Module 11 (Architecture) — ready to start
+**Current position:** Advanced tier, Module 12 (Adding Tools) — ready to start
