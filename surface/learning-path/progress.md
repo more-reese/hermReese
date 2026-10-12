@@ -11,7 +11,7 @@
 | 7 | Tools | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A tool is a capability for external action with a schema (name, description, parameters). The model reads schemas to match intent to capability. Toolsets bundle tools by capability; you enable different toolsets per surface because not every tool makes sense on every platform." |
 | 8 | Skills | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A skill does not take action — it is used to take action. Progressive disclosure = just in case (name + description, always loaded) and just in time (full body, loaded on match or request). Description limit = routing signal, not just cost." |
 | 9 | Memory | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Memory = MEMORY.md (2,200 chars) + USER.md (1,375 chars), frozen snapshot at session start, written now read later. Session search is free but on-demand; memory costs tokens every session but is instant. Tool rejects full writes — agent consolidates manually." |
-| 10 | Cron | Intermediate | not started | — | — | — | — |
+| 10 | Cron | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Cron = durable, scheduled, autonomous. Delegation = ephemeral, parallel, process-local. Session = interactive. Model resolution: per-job pin → cron.model → main agent. Durability = stored on disk, survives restarts." |
 | 11 | Architecture | Advanced | not started | — | — | — | — |
 | 12 | Adding Tools | Advanced | not started | — | — | — | — |
 | 13 | Creating Skills | Advanced | not started | — | — | — | — |
@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Intermediate tier, Module 10 (Cron) — ready to start
+**Current position:** Advanced tier, Module 11 (Architecture) — ready to start
