@@ -14,11 +14,11 @@
 | 10 | Cron | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Cron = durable, scheduled, autonomous. Delegation = ephemeral, parallel, process-local. Session = interactive. Model resolution: per-job pin → cron.model → main agent. Durability = stored on disk, survives restarts." |
 | 11 | Architecture | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Six entry points, one AIAgent core. Three data flows converge on run_conversation(): CLI (direct), gateway (adapter + authorize + session resolve), cron (fresh agent, no history, inject skills). Platform-agnostic core: platform differences live in entry points, not the agent. Each concept maps to a specific source file." |
 | 12 | Adding Tools | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Four parts: check_fn (availability), handler (runs), schema (contract model reads), registration (connects to registry). Auto-discovered via discover_builtin_tools() — no manual import list. Skills = instructions, tools = actions. Default to plugins for custom tools; built-in tools ship in the repo." |
-| 13 | Creating Skills | Advanced | not started | — | — | — | — |
+| 13 | Creating Skills | Advanced | ✅ complete | pass | pass | 2026-10-12 | "SKILL.md = frontmatter (YAML metadata, in skills_list) + body (procedure). 60-char description limit = routing signal, not just cost. Linked files = Level 2, loaded on demand. fallback_for_tools = workaround when primary tool isn't available. L0 = catalog, L1 = skill, L2 = supplementary detail." |
 | 14 | Contributing | Advanced | not started | — | — | — | — |
 
 ---
 
 Started: 2026-10-10
 
-**Current position:** Advanced tier, Module 13 (Creating Skills) — ready to start
+**Current position:** Advanced tier, Module 14 (Contributing) — ready to start
