@@ -21,4 +21,4 @@
 
 Started: 2026-10-10
 
-**Current position:** Course complete! 14/14 required modules done. Bonus Module 15 (Reading Code) available.
+**Current position:** Course complete! 14/14 required modules done. Bonus Module 15 in progress — sub-modules 15.1–15.4 complete (Reading a File, Registry Pattern, Separation of Concerns, Progressive Disclosure). Next: 15.5 (Inversion of Control).
