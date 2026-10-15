@@ -1,10 +1,18 @@
 # hermReese
 
-My living workspace for interacting with [Hermes Agent](https://hermes-agent.nousresearch.com/). Everything here is an artifact of an ongoing interaction — skills I've built, projects I've shipped, sessions I've run, evaluations I've written, and product thinking I'm developing through Hermes, not just about it.
+**Use Hermes to learn Hermes.** Work with Hermes to show you how it works, not to tell you.
 
-If someone asks me "how are you using Hermes Agent?" — this is the answer.
+This repo is both a **reusable learning framework** and a **personal learning path** — the evidence of one person's journey through it.
 
----
+## What's here
+
+| Directory | What it is | Who it's for |
+|-----------|-----------|--------------|
+| [`framework/`](framework/) | The reusable framework — a Hermes skill, default curriculum, assessment protocol, and conceptual shorthands | Anyone who wants to learn Hermes with Hermes |
+| [`path/`](path/) | A personal learning path — progress records, artifacts, and reflections from completing the curriculum | Reference for what the framework produces |
+| [`surface/`](surface/) | How the author actually works with Hermes day to day | The author |
+| [`artifacts/`](artifacts/) | What the interactions produce — skills, projects, writing | The author |
+| [`reflection/`](reflection/) | What the author is figuring out about product, including Hermes itself | The author |
 
 ## The philosophy
 
@@ -12,31 +20,34 @@ An agent is a cognitive prosthetic. It cultivates a new channel — translating 
 
 Trust is earned through memory, adaptation, and transparency. The agent that remembers what I meant last time, adapts to how I work, and shows its work is the one I trust with more. The one that hallucinates confidently, forgets context, or hides its reasoning gets used less — and the less it's used, the less it can learn. Trust and use are coupled.
 
-The ideal agent disappears. You think through it. The interface becomes the work itself — not a screen between you and the work, but a surface where thinking and making are the same act. This is what Hermes gets right: the conversation is the product, and the skills, tools, and memory are infrastructure that recedes when it works.
+The ideal agent disappears. You think through it. The interface becomes the work itself — not a screen between you and the work, but a surface where thinking and making are the same act.
 
-The open question for agent product work: what makes someone trust an agent with *more* of their work? Not the first task — the tenth. The tenth task is where the product lives or dies. My bet: it's the combination of persistent memory, composable skills, honest failure, and value that's visible. When all four are present, the agent stops being a tool and starts being a collaborator. When any one is missing, it stays a tool — useful, but not trusted with more.
+## The framework
 
----
+The `framework/` directory contains a Hermes skill (`SKILL.md`) that anyone can install into their own Hermes instance. Clone the repo, install the skill, and Hermes guides you through a structured curriculum with dual assessment (knowledge + practical skills).
 
-## How this is organized
+```bash
+# Clone the framework
+git clone https://github.com/more-reese/hermReese.git
+cd hermReese/framework
 
-The structure reflects my mental model for Hermes: **philosophy → surface → artifacts → reflection.** Philosophy is the frame (you just read it). The rest is the repo.
+# Install the skill into your Hermes instance
+# (or copy SKILL.md + references/ into your ~/.hermes/skills/ directory)
+```
 
-| Directory | What it is | What's there |
-|---|---|---|
-| [`surface/`](surface/) | How I actually work with Hermes — the lived setup | Config, persistent memory, Telegram gateway, session examples |
-| [`artifacts/`](artifacts/) | What the interactions produce | Custom skills, shipped projects, published writing |
-| [`reflection/`](reflection/) | What I'm figuring out — using Hermes to think about product, including Hermes itself | Friction log, roadmap ideas, onboarding analysis, metrics, evaluations |
+The framework ships with a default Hermes curriculum (14 modules across 3 tiers + a bonus module on reading code). You can follow it as-is or customize it for your own learning goals.
 
-Everything maps back to a Hermes interaction. A skill exists because I built it through a session. A project exists because Hermes was the collaborator. A friction point exists because I hit it while using the tool. The repo is the evidence of the interaction — not a description of it.
+## The principle
 
----
+**Work with Hermes to show you how it works, not to tell you.**
 
-## How this is maintained
+The learning path is built on a simple idea: you learn a tool by using it to understand itself. Hermes reads its own docs, explains them in plain language, gives you hands-on practice, and assesses both your understanding and your practical skills. The agent that runs the curriculum is the same agent the curriculum teaches you about — it's self-referential by design.
 
-Every file is produced through a Hermes Agent session. The workspace evolves session by session — skills get patched, evals get rerun, product thinking gets updated as I learn more. The git history is the iteration history.
+Each module follows a cycle: **learn → practice → assess → record**. The agent reads the doc, explains it, you practice, the agent verifies your output with real tool calls, and your results are recorded for the next session to pick up.
 
-This isn't a portfolio. It's a reference library and a public showcase for how I'm "AI-ing" through a Hermes Agent lens. It grows as I grow with the tool.
+## The path
+
+The `path/` directory is a completed example of what the framework produces — one person's progress through the default curriculum, including their key insights, diagrams they built, and reflections on what they learned. It's evidence that the framework works, and a reference for what your own path might look like.
 
 ---
 

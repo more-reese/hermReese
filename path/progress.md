@@ -1,0 +1,24 @@
+# Learning Path Progress
+
+| # | Module | Tier | Status | Knowledge | Skills | Date | Note |
+|---|--------|------|--------|-----------|--------|------|------|
+| 1 | Installation | Beginner | ✅ complete | pass | pass | 2026-10-10 | "An AI agent framework — rules + tools that decide and act autonomously. Concrete example of action vs. chatbot: publishing a GitHub repo." |
+| 2 | Quickstart | Beginner | ✅ complete | pass | pass | 2026-10-10 | "ReAct pattern: input → [reason → act → observe → reason] → output. One-shot is transactional, multi-shot is interactional. Tool chaining = each result informs the next decision." |
+| 3 | CLI Usage | Beginner | ✅ complete | pass | pass | 2026-10-10 | "--continue resumes most recent; --resume picks a specific session. ! prefix saves cost AND keeps context clean. Three commands: secrets, cron, skills." |
+| 4 | Configuration | Beginner | ✅ complete | pass | pass | 2026-10-10 | "config.yaml = settings, .env = secrets. Split is security: secrets exposed if in config. UPPER_SNAKE names route to .env, dotted names to config.yaml. Precedence: CLI > config > .env > defaults. Set reasoning_effort=medium explicitly." |
+| 5 | Sessions | Intermediate | ✅ complete | pass | pass | 2026-10-10 | "Session vs memory: sessions are conversation-scoped, memory is profile-scoped and deliberately written (not auto-extracted). All surfaces share one state.db per profile. Config changes take effect next session; slash commands override immediately." |
+| 6 | Messaging | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Gateway = single process, many adapters. Shared: agent core, session store, memory, skills, config. Per-platform: adapter, connection, allowlist, capabilities. Security = deny by default. Handoff = same session across surfaces." |
+| 7 | Tools | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A tool is a capability for external action with a schema (name, description, parameters). The model reads schemas to match intent to capability. Toolsets bundle tools by capability; you enable different toolsets per surface because not every tool makes sense on every platform." |
+| 8 | Skills | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "A skill does not take action — it is used to take action. Progressive disclosure = just in case (name + description, always loaded) and just in time (full body, loaded on match or request). Description limit = routing signal, not just cost." |
+| 9 | Memory | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Memory = MEMORY.md (2,200 chars) + USER.md (1,375 chars), frozen snapshot at session start, written now read later. Session search is free but on-demand; memory costs tokens every session but is instant. Tool rejects full writes — agent consolidates manually." |
+| 10 | Cron | Intermediate | ✅ complete | pass | pass | 2026-10-11 | "Cron = durable, scheduled, autonomous. Delegation = ephemeral, parallel, process-local. Session = interactive. Model resolution: per-job pin → cron.model → main agent. Durability = stored on disk, survives restarts." |
+| 11 | Architecture | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Six entry points, one AIAgent core. Three data flows converge on run_conversation(): CLI (direct), gateway (adapter + authorize + session resolve), cron (fresh agent, no history, inject skills). Platform-agnostic core: platform differences live in entry points, not the agent. Each concept maps to a specific source file." |
+| 12 | Adding Tools | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Four parts: check_fn (availability), handler (runs), schema (contract model reads), registration (connects to registry). Auto-discovered via discover_builtin_tools() — no manual import list. Skills = instructions, tools = actions. Default to plugins for custom tools; built-in tools ship in the repo." |
+| 13 | Creating Skills | Advanced | ✅ complete | pass | pass | 2026-10-12 | "SKILL.md = frontmatter (YAML metadata, in skills_list) + body (procedure). 60-char description limit = routing signal, not just cost. Linked files = Level 2, loaded on demand. fallback_for_tools = workaround when primary tool isn't available. L0 = catalog, L1 = skill, L2 = supplementary detail." |
+| 14 | Contributing | Advanced | ✅ complete | pass | pass | 2026-10-12 | "Footprint Ladder: highest rung that solves the problem = least footprint. Skills > tools (skills load on demand, tools cost tokens every call). Expansive at edges, conservative at waist. Verify premise before fixing — reproduce on main, point to exact line, check if gap was intentional design." |
+
+---
+
+Started: 2026-10-10
+
+**Current position:** Course complete! 14/14 required modules done. Bonus Module 15 (Reading Code) available.
